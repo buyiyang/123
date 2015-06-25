@@ -38,6 +38,7 @@
     UISearchBar *vc=[[UISearchBar alloc]initWithFrame:CGRectMake(0, 0, 320, 40)];
 
     vc.delegate=self;
+    123
     table.tableHeaderView=vc;
 //    UISearchDisplayController *sear=[uisea];
     vc1=[[UISearchDisplayController alloc]initWithSearchBar:vc contentsController:self];
@@ -46,7 +47,7 @@
     vc1.searchResultsDelegate = self;
     
     
-    
+    123
     
     
     
